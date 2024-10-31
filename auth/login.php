@@ -83,6 +83,7 @@ if(isset($_POST["login"])) {
             <img src="<?= base_url('assets/img/logo.jpeg')?> " width="110" height="32" alt="Tabler" class="navbar-brand-image">
           </a>
         </div>
+        <?= password_hash('123', PASSWORD_DEFAULT); ?>
         <div class="card card-md">
           <div class="card-body">
             <h2 class="h2 text-center mb-4">Login to your account</h2>

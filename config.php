@@ -13,7 +13,7 @@ if(!$connection) {
 
 function base_url($url = null)
 { 
-    $base_url = 'http://localhost/presensi';
+    $base_url = 'http://localhost:8888/presensi';
     if($url != null) {
         return  $base_url . '/'.$url;
     }else{
